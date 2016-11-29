@@ -21,9 +21,9 @@ angular.module('app.controllers').controller("ListCtrl", [ '$scope', '$rootScope
     };
 
     Liferay.on('reloadBookmarks', function(event) {
+      
       console.log("Reload event", event.portletId, $scope.portletId);
 
-      // Filter out event if we triggered it in this portlet instance
       if (event.portletId != $scope.portletId) {
         console.log("RELOAD!");
         $scope.load();
@@ -32,5 +32,4 @@ angular.module('app.controllers').controller("ListCtrl", [ '$scope', '$rootScope
 
     $scope.load();
   }
-]
-);
+]);
