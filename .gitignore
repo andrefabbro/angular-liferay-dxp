@@ -26,6 +26,7 @@ Servers
 **/.sass-cache
 **/bower_components
 **/coverage
+**/output
 
 # Compiled JS
 /src/main/resources/META-INF/resources/js/main.js
