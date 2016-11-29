@@ -22,5 +22,4 @@ angular.module('app.controllers').controller('AddCtrl', [ '$scope', '$rootScope'
       });
     };
   }
-]
-);
+]);
