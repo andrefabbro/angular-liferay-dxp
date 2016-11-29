@@ -1,5 +1,6 @@
 angular.module("app.factories").factory('releaseFactory', [ '$q', '$http', 'url',
   function($q, $http, url) {
+  
     var getRelease = function() {
       var deferred = $q.defer();
       var resource = url.createResourceUrl("/example/release", "releaseId", "1");
@@ -14,5 +15,6 @@ angular.module("app.factories").factory('releaseFactory', [ '$q', '$http', 'url'
     return {
       getRelease : getRelease
     };
-  } ]
+    
+  }]
 );

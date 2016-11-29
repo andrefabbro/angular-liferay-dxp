@@ -1,7 +1,7 @@
 angular.module('app.controllers').controller('AddCtrl', [ '$scope', '$rootScope', 'bookmarkFactory', '$state', '$stateParams',
   function($scope, $rootScope, bookmarkFactory, $state, $stateParams) {
 
-    console.log("Add new bookmark..." + Liferay.ThemeDisplay.getBCP47LanguageId());
+    console.log("Add new bookmark...");
 
     $scope.model = {
       currentBookmark : {
