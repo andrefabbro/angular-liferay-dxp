@@ -1,0 +1,43 @@
+# IntelliJ Files
+.idea
+*.iml
+
+# Eclipse files
+**/.settings/
+*.classpath
+*.project
+.tern-project
+.metadata
+Servers
+
+# Gradle
+**/gradle/
+**/build/
+**/classes/
+**/.gradle/
+**/gradlew*
+**/out/
+**/bin/
+
+# Angular
+**/node_modules
+**/dist
+**/.tmp
+**/.sass-cache
+**/bower_components
+**/coverage
+
+# Compiled JS
+/src/main/resources/META-INF/resources/js/main.js
+
+#Language
+/src/main/resources/*.properties
+
+# JRebel
+**/rebel.xml
+
+# Jasper
+*.jasper
+
+# Maven
+**/target
