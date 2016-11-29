@@ -1,0 +1,2 @@
+<span translate>portlet.id</span> {{portletId}} <br/>
+<span translate>liferay.version</span> {{liferay.release.buildNumber}} | <span translate>auth.token</span> {{liferay.token}} | <span translate>company.id</span>: {{liferay.companyId}}
